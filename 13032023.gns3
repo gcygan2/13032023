@@ -20,68 +20,6 @@
         "links": [
             {
                 "filters": {},
-                "link_id": "eeb0ed10-335c-434f-b1b7-b3721c70ede5",
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e1",
-                            "x": 22,
-                            "y": 74
-                        },
-                        "node_id": "192669e0-39df-4f1b-8182-ebeffe8f8f82",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 35,
-                            "y": -6
-                        },
-                        "node_id": "8b4dd250-fb8f-4c4b-8547-bcd453066e8f",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "0d2c2c83-290e-47d3-a5d0-6c84d7cec69d",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 64,
-                            "y": 33
-                        },
-                        "node_id": "192669e0-39df-4f1b-8182-ebeffe8f8f82",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -6,
-                            "y": 23
-                        },
-                        "node_id": "51916cb8-2274-4bfd-a7ac-8bb5a22403ad",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "e5fb7752-85a8-407e-9a9d-108bfd3c7354",
                 "nodes": [
                     {
@@ -106,6 +44,68 @@
                             "y": 30
                         },
                         "node_id": "744a2331-e94e-4ac6-b39e-9d6315fd5211",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d97ab634-a9e9-4520-9b58-af436d3573ab",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 64,
+                            "y": 34
+                        },
+                        "node_id": "192669e0-39df-4f1b-8182-ebeffe8f8f82",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -6,
+                            "y": 22
+                        },
+                        "node_id": "51916cb8-2274-4bfd-a7ac-8bb5a22403ad",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "dfea477f-da11-4434-b254-2bceab2e70f6",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 24,
+                            "y": 74
+                        },
+                        "node_id": "192669e0-39df-4f1b-8182-ebeffe8f8f82",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 33,
+                            "y": -6
+                        },
+                        "node_id": "8b4dd250-fb8f-4c4b-8547-bcd453066e8f",
                         "port_number": 0
                     }
                 ],
@@ -136,7 +136,7 @@
                 "port_segment_size": 0,
                 "properties": {
                     "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
-                    "adapters": 2,
+                    "adapters": 3,
                     "headless": false,
                     "linked_clone": false,
                     "on_close": "power_off",
@@ -228,8 +228,8 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 66,
-                "x": -95,
-                "y": -210,
+                "x": -97,
+                "y": -209,
                 "z": 1
             },
             {
